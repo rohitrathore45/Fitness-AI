@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏋️‍♂️ YouFitness AI
+Welcome to YouFitness AI, your personalized fitness assistant!
+This platform uses AI-driven insights to recommend customized diet plans and exercise routines based on your unique needs and goals.
 
-## Getting Started
+______________________________________________________________________________________________________________________________________________________________________
 
-First, run the development server:
+🔗 https://fitness-ai-mu.vercel.app
 
-```bash
+______________________________________________________________________________________________________________________________________________________________________
+
+✨ Features
+🗣️ Voice Assistant (VAPI)
+Interact with the platform using your voice. VAPI takes voice input from the user, processes it, and sends it to Gemini AI for personalized recommendations.
+
+🤖 AI-powered Personalized Diet & Exercise
+Based on your input, Gemini AI generates customized diet plans and exercise routines tailored to your goals.
+
+🔐 Authentication with Clerk
+Secure user authentication using Clerk to ensure a seamless and safe login experience.
+
+⚡ Modern Tech Stack
+Built using Next.js, TypeScript, Convex DB for data storage, and VAPI for voice interaction.
+
+______________________________________________________________________________________________________________________________________________________________________
+
+
+🛠 Tech Stack
+Frontend: Next.js, TypeScript
+
+Authentication: Clerk
+
+Backend: Convex DB
+
+Voice Assistant: VAPI (for voice input)
+
+AI Integration: Gemini AI (for personalized recommendations)
+
+______________________________________________________________________________________________________________________________________________________________________
+
+🔥 How It Works
+Voice Interaction
+Use VAPI to provide voice commands, such as asking for diet plans or exercise recommendations.
+
+AI Personalization
+Once the voice input is received, Gemini AI processes it and provides tailored diet and exercise suggestions.
+
+User Authentication
+Secure and easy login through Clerk, ensuring privacy and personal data security.
+
+Data Storage
+All user data, including preferences and progress, is securely stored in Convex DB.
+
+______________________________________________________________________________________________________________________________________________________________________
+
+📦 Installation (For Developers)
+# Clone the repo
+git clone https://github.com/rohitrathore45/Fitness-AI
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run the app locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+______________________________________________________________________________________________________________________________________________________________________
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ using Next.js, TypeScript, Clerk, Convex DB, VAPI, and Gemini AI.
